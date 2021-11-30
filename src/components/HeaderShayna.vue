@@ -83,6 +83,6 @@
 </template>
 <script>
 export default {
-  name: "HomeShayna",
+  name: "HeaderShayna",
 };
 </script>

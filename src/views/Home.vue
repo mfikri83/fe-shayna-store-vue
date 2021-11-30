@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <HomeShayna />
+    <HeaderShayna />
     <HeroShayna />
     <WomenShayna />
     <InstaShayna />
@@ -11,7 +11,7 @@
 
 <script>
 // @ is an alias to /src
-import HomeShayna from '@/components/HomeShayna.vue';
+import HeaderShayna from '@/components/HeaderShayna.vue';
 import HeroShayna from '@/components/HeroShayna.vue';
 import WomenShayna from '@/components/WomenShayna.vue';
 import InstaShayna from '@/components/InstaShayna.vue';
@@ -21,7 +21,7 @@ import FooterShayna from '@/components/FooterShayna.vue';
 export default {
   name: "Home",
   components: {
-    HomeShayna,
+    HeaderShayna,
     HeroShayna,
     WomenShayna,
     InstaShayna,
